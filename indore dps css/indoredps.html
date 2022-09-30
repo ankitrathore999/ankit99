@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+     header {
+            height: 250px;
+            width: 50vw;
+            display: flex;
+            justify-content: space-between;
+
+2
+        }
+
+        .img {
+            width: 50px;
+            height: 100px;
+            position: relative;
+            left: 100px;
+            padding: 5px
+        }
+
+        .button{
+            width: 140px;
+            height: 30px;
+            position: relative;
+            left: 400px;
+            background-color: green;
+            border: 1px solid;
+            border-radius: 8px;
+            font-size: 20px;
+            color: white;
+            margin-top: 100px;
+
+
+        }
+         .button:hover{
+        
+            background-color: yellowgreen;
+        }
+
+        .call {
+            margin-top: 100px;
+            position: relative;
+            left: 500px;
+            font-size: 20px;
+            color: green;
+
+        }
+
+        .nav {
+            background-color: green;
+            height: 70px;
+            width: 100vw;
+        }
+
+        .nav ul {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            list-style: none;
+           padding: 10px;
+            
+        }
+
+        .nav ul li {
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px;
+            color: black;
+            
+            
+        }
+        a:hover{
+            background-color: yellowgreen;
+            
+        }
+
+    
+    
+        
+            
+        
+        .nav ul li :hover ul li a{
+            display: flex;
+            flex-direction: column;
+            background-color: greenyellow;
+            
+        }
+.nav ul li ul {
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    box-sizing: border-box;
+}
+        .nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav ul li ul li a{
+            display: flex;
+            flex-direction: column;
+            visibility: hidden;
+        
+        }
+
+        
+
+
+        .main img {
+            width: 100vw;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="img"> <img src="indoredps/scl.png"></div>
+        <div class="button">DPSMUN2022</button></div>
+        <div class="call">
+            <p>0731-2444401,4064403</p>
+        </div>
+    </header>
+
+    <div class="nav">
+        <ul>
+            <li><a href="#">About us</a>
+                <ul>
+                    <li><a href="#">Methodology</a></li>
+                    <li><a href="#">student council</a></li>
+                    <li><a href="#"> Teaching</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Academic Result</a></li>
+                    <li><a href="#">certification</a></li>
+                    <li><a href="#">Sports</a></li>
+                </ul>
+
+            </li>
+            <li><a href="#">Academic</a></li>
+            
+            <li><a href="#">facilites</a></li>
+            <li><a href="#">campus</a></li>
+            <li><a href="#">admission</a></li>
+
+             <!-- </ul></div> -->
+    <div class="main">
+
+            <img src="indoredps/ank.jpg">
+            </div>
+
+
+</body>
+
+</html>
